@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@saucelabs/cypress-visual-plugin": "^0.3.90",
+    "@tsconfig/node18": "^18.2.2",
+    "cypress": "^12.17.4",
+    "typescript": "^5.2.2"
+  }
+}
