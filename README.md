@@ -1,6 +1,6 @@
 # Sauce Visual + Cypress with big screens
 
-This projects intends to show how to generate big screenshots, without scrolling.
+This projects intends to show how to generate big screenshots, without scrolling (using `capture: "viewport"`).
 
 It relies on `before:browser:launch` that permits to set the viewport. In this example, we will simulate a 3000x13000 screen, that would fit the long home page of github.
 
