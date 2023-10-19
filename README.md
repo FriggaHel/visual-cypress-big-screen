@@ -2,6 +2,12 @@
 
 This projects intends to show how to generate big screenshots, without scrolling (using `capture: "viewport"`).
 
+## Run
+
+In order to run that example, you need to set your Sauce Labs credentials in the `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` environment variables.
+
+## Details
+
 It relies on `before:browser:launch` that permits to set the viewport. In this example, we will simulate a 3000x13000 screen, that would fit the long home page of github.
 
 With that resolution, screenshots dimensions would be:
