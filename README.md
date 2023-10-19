@@ -7,6 +7,6 @@ It relies on `before:browser:launch` that permits to set the viewport. In this e
 With that resolution, screenshots dimensions would be:
 - Chrome: 3000x12871
 - Firefox: 3000x12999
-- Electron: 6000x26000 (Pixel density increased)
+- Electron: 6000x26000
 
 Note: Timeout had to be increased, because Electron was really slow to take screenshots that big.
