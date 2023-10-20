@@ -2,7 +2,7 @@ context('Github Homepage', () => {
   it('capture rendering of the homepage', () => {
     cy.visit('https://www.github.com/')
 
-    cy.visualCheckWrapper('GH - login-page - fullPage');
+    cy.visualCheck('GH - login-page - fullPage');
     cy.visualCheckWrapper('GH - login-page - viewport', {
       cypress: {
         capture: "viewport",
